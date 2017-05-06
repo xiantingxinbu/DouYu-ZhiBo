@@ -12,10 +12,21 @@ class JWTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.tabBar.tintColor = UIColor.orange
+        tabBar.tintColor = UIColor.orange
+        
+        //添加子视图
+        addChildViewController(storyBoardName: "Home")
+        addChildViewController(storyBoardName: "Live")
+        addChildViewController(storyBoardName: "Attention")
+        addChildViewController(storyBoardName: "User")
         // Do any additional setup after loading the view.
     }
-
+    private func addChildViewController(storyBoardName: String) {
+        //1.获取根试图控制器
+        let childVC = UIStoryboard(name:storyBoardName,bundle:nil).instantiateInitialViewController()
+        //2.添加子视图
+        addChildViewController(childVC!)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

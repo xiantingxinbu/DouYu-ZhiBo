@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA1CF74A1EBD75C300B2F179 /* Attention.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1CF7421EBD75C300B2F179 /* Attention.storyboard */; };
+		DA1CF74B1EBD75C300B2F179 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1CF7441EBD75C300B2F179 /* Home.storyboard */; };
+		DA1CF74C1EBD75C300B2F179 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1CF7461EBD75C300B2F179 /* Live.storyboard */; };
+		DA1CF74D1EBD75C300B2F179 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1CF7481EBD75C300B2F179 /* User.storyboard */; };
+		DA1CF7551EBD7A8400B2F179 /* JWTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1CF7541EBD7A8400B2F179 /* JWTabBarViewController.swift */; };
 		DA2231491EBCB60400ED6DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2231481EBCB60400ED6DC9 /* AppDelegate.swift */; };
 		DA2231501EBCB60400ED6DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA22314F1EBCB60400ED6DC9 /* Assets.xcassets */; };
 		DA22315E1EBCB60400ED6DC9 /* DouYuZhiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22315D1EBCB60400ED6DC9 /* DouYuZhiBoTests.swift */; };
 		DA2231691EBCB60400ED6DC9 /* DouYuZhiBoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2231681EBCB60400ED6DC9 /* DouYuZhiBoUITests.swift */; };
-		DA22317B1EBCF78900ED6DC9 /* JWTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22317A1EBCF78900ED6DC9 /* JWTabBarViewController.swift */; };
 		DA22317E1EBCF99100ED6DC9 /* Classes in Resources */ = {isa = PBXBuildFile; fileRef = DA22317D1EBCF99100ED6DC9 /* Classes */; };
 		DA833FFB1EBCFD1300611423 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA833FF91EBCFD1300611423 /* Main.storyboard */; };
 /* End PBXBuildFile section */
@@ -34,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DA1CF7431EBD75C300B2F179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Attention.storyboard; sourceTree = "<group>"; };
+		DA1CF7451EBD75C300B2F179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		DA1CF7471EBD75C300B2F179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Live.storyboard; sourceTree = "<group>"; };
+		DA1CF7491EBD75C300B2F179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/User.storyboard; sourceTree = "<group>"; };
+		DA1CF7541EBD7A8400B2F179 /* JWTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWTabBarViewController.swift; sourceTree = "<group>"; };
 		DA2231451EBCB60400ED6DC9 /* DouYuZhiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZhiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2231481EBCB60400ED6DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA22314F1EBCB60400ED6DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -44,7 +53,6 @@
 		DA2231641EBCB60400ED6DC9 /* DouYuZhiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZhiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2231681EBCB60400ED6DC9 /* DouYuZhiBoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZhiBoUITests.swift; sourceTree = "<group>"; };
 		DA22316A1EBCB60400ED6DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA22317A1EBCF78900ED6DC9 /* JWTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWTabBarViewController.swift; sourceTree = "<group>"; };
 		DA22317D1EBCF99100ED6DC9 /* Classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Classes; sourceTree = "<group>"; };
 		DA833FFA1EBCFD1300611423 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -98,8 +106,12 @@
 			isa = PBXGroup;
 			children = (
 				DA2231481EBCB60400ED6DC9 /* AppDelegate.swift */,
-				DA22317A1EBCF78900ED6DC9 /* JWTabBarViewController.swift */,
 				DA833FF91EBCFD1300611423 /* Main.storyboard */,
+				DA1CF7421EBD75C300B2F179 /* Attention.storyboard */,
+				DA1CF7441EBD75C300B2F179 /* Home.storyboard */,
+				DA1CF7461EBD75C300B2F179 /* Live.storyboard */,
+				DA1CF7541EBD7A8400B2F179 /* JWTabBarViewController.swift */,
+				DA1CF7481EBD75C300B2F179 /* User.storyboard */,
 				DA22317D1EBCF99100ED6DC9 /* Classes */,
 				DA22314F1EBCB60400ED6DC9 /* Assets.xcassets */,
 				DA2231541EBCB60400ED6DC9 /* Info.plist */,
@@ -236,7 +248,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA22317E1EBCF99100ED6DC9 /* Classes in Resources */,
+				DA1CF74B1EBD75C300B2F179 /* Home.storyboard in Resources */,
+				DA1CF74C1EBD75C300B2F179 /* Live.storyboard in Resources */,
+				DA1CF74A1EBD75C300B2F179 /* Attention.storyboard in Resources */,
 				DA2231501EBCB60400ED6DC9 /* Assets.xcassets in Resources */,
+				DA1CF74D1EBD75C300B2F179 /* User.storyboard in Resources */,
 				DA833FFB1EBCFD1300611423 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA22317B1EBCF78900ED6DC9 /* JWTabBarViewController.swift in Sources */,
 				DA2231491EBCB60400ED6DC9 /* AppDelegate.swift in Sources */,
+				DA1CF7551EBD7A8400B2F179 /* JWTabBarViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +315,38 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		DA1CF7421EBD75C300B2F179 /* Attention.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1CF7431EBD75C300B2F179 /* Base */,
+			);
+			name = Attention.storyboard;
+			sourceTree = "<group>";
+		};
+		DA1CF7441EBD75C300B2F179 /* Home.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1CF7451EBD75C300B2F179 /* Base */,
+			);
+			name = Home.storyboard;
+			sourceTree = "<group>";
+		};
+		DA1CF7461EBD75C300B2F179 /* Live.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1CF7471EBD75C300B2F179 /* Base */,
+			);
+			name = Live.storyboard;
+			sourceTree = "<group>";
+		};
+		DA1CF7481EBD75C300B2F179 /* User.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA1CF7491EBD75C300B2F179 /* Base */,
+			);
+			name = User.storyboard;
+			sourceTree = "<group>";
+		};
 		DA833FF91EBCFD1300611423 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -351,7 +399,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -396,7 +444,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -412,7 +460,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 267D73UHL4;
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = freedom.DouYuZhiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -427,7 +475,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 267D73UHL4;
 				INFOPLIST_FILE = DouYuZhiBo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = freedom.DouYuZhiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
