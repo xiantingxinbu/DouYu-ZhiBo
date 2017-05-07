@@ -12,8 +12,8 @@ class JWTabBarViewController: UITabBarController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        tabBar.tintColor = UIColor.orange
-        
+        //修改tabBar
+        UITabBar.appearance().tintColor = UIColor.orange
         //添加子视图
         addChildViewController(storyBoardName: "Home")
         addChildViewController(storyBoardName: "Live")

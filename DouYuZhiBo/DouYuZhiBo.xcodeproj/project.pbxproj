@@ -12,6 +12,8 @@
 		DA1CF7631EBD7EB800B2F179 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1CF75D1EBD7EB800B2F179 /* Live.storyboard */; };
 		DA1CF7641EBD7EB800B2F179 /* User.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1CF75F1EBD7EB800B2F179 /* User.storyboard */; };
 		DA1CF7671EBD7F0400B2F179 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA1CF7651EBD7F0400B2F179 /* Home.storyboard */; };
+		DA1CF7841EBEB45800B2F179 /* JWHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1CF7831EBEB45800B2F179 /* JWHomeViewController.swift */; };
+		DA1CF7881EBEC3B000B2F179 /* UIButtonItem_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA1CF7871EBEC3B000B2F179 /* UIButtonItem_extension.swift */; };
 		DA2231491EBCB60400ED6DC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2231481EBCB60400ED6DC9 /* AppDelegate.swift */; };
 		DA2231501EBCB60400ED6DC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA22314F1EBCB60400ED6DC9 /* Assets.xcassets */; };
 		DA22315E1EBCB60400ED6DC9 /* DouYuZhiBoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA22315D1EBCB60400ED6DC9 /* DouYuZhiBoTests.swift */; };
@@ -42,6 +44,8 @@
 		DA1CF75E1EBD7EB800B2F179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Live.storyboard; sourceTree = "<group>"; };
 		DA1CF7601EBD7EB800B2F179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/User.storyboard; sourceTree = "<group>"; };
 		DA1CF7661EBD7F0400B2F179 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Home.storyboard; sourceTree = "<group>"; };
+		DA1CF7831EBEB45800B2F179 /* JWHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JWHomeViewController.swift; sourceTree = "<group>"; };
+		DA1CF7871EBEC3B000B2F179 /* UIButtonItem_extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonItem_extension.swift; sourceTree = "<group>"; };
 		DA2231451EBCB60400ED6DC9 /* DouYuZhiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZhiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA2231481EBCB60400ED6DC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA22314F1EBCB60400ED6DC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -88,6 +92,7 @@
 				DA1CF7761EBEAA5000B2F179 /* Live */,
 				DA1CF76E1EBEAA5000B2F179 /* Attention */,
 				DA1CF77E1EBEAA5000B2F179 /* User */,
+				DA1CF7851EBEC34700B2F179 /* Tools */,
 				DA1CF7821EBEAABB00B2F179 /* StoryBoard */,
 			);
 			path = Classes;
@@ -137,6 +142,7 @@
 		DA1CF7731EBEAA5000B2F179 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DA1CF7831EBEB45800B2F179 /* JWHomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -261,6 +267,22 @@
 			path = StoryBoard;
 			sourceTree = "<group>";
 		};
+		DA1CF7851EBEC34700B2F179 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				DA1CF7861EBEC38800B2F179 /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DA1CF7861EBEC38800B2F179 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DA1CF7871EBEC3B000B2F179 /* UIButtonItem_extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		DA22313C1EBCB60400ED6DC9 = {
 			isa = PBXGroup;
 			children = (
@@ -372,6 +394,7 @@
 		DA22313D1EBCB60400ED6DC9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JW;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = "wang jun";
@@ -450,8 +473,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA1CF7881EBEC3B000B2F179 /* UIButtonItem_extension.swift in Sources */,
 				DA2231491EBCB60400ED6DC9 /* AppDelegate.swift in Sources */,
 				DA1CF7551EBD7A8400B2F179 /* JWTabBarViewController.swift in Sources */,
+				DA1CF7841EBEB45800B2F179 /* JWHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
