@@ -14,6 +14,7 @@ class JWTabBarViewController: UITabBarController {
         super.viewDidLoad()
         //修改tabBar
         UITabBar.appearance().tintColor = UIColor.orange
+        UITabBar.appearance().barTintColor = UIColor.white
         //添加子视图
         addChildViewController(storyBoardName: "Home")
         addChildViewController(storyBoardName: "Live")
@@ -24,6 +25,7 @@ class JWTabBarViewController: UITabBarController {
     private func addChildViewController(storyBoardName: String) {
         //1.获取根试图控制器
         let childVC = UIStoryboard(name:storyBoardName,bundle:nil).instantiateInitialViewController()
+        
         //2.添加子视图
         addChildViewController(childVC!)
     }
